@@ -19,7 +19,7 @@
         jar="/Applications/MAMP/htdocs/Repositories/mad9135/multiview/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="6642e53e73daa358039b65addef0322a81fb0d38">
+        sha1="441e4a32a7690f3dc1ca84f4848e95bf2f0a6f0f">
         <dex dex="/Applications/MAMP/htdocs/Repositories/mad9135/multiview/platforms/android/build/intermediates/pre-dexed/debug/classes-0aacb7af7b3a7b9db61157d6cc8230dcc5cf59dd.jar" />
     </item>
     <item
