@@ -1,0 +1,40 @@
+<ion-view view-title="List One" ng-controller="list1Ctrl">
+
+<ion-content ion-content has-header has-footer>
+    <!-- list1 and list1 items -->
+
+    <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
+
+      <ion-item ng-repeat="list1 in list1s track by $index" class="item item-checkbox item-button-right">
+
+        <label class="checkbox">
+          <input type="checkbox" ng-model="list1.done">
+        </label>
+        {{list1.text}}
+
+
+          <ion-delete-button class="ion-minus-circled"
+                             ng-click="onItemDelete(list1)">
+          </ion-delete-button>
+
+          <ion-reorder-button class="ion-navicon" on-reorder="moveItem(list1, $fromIndex, $toIndex)"></ion-reorder-button>
+
+      </ion-item>
+
+    </ion-list>
+
+    </ion-content>
+
+
+    <form name="myForm" data-ng-submit="addTodo()">
+      <ion-footer-bar class="bar bar-footer item-input-inset">
+        <label class="item-input-wrapper">
+          <input name="myText" class="itemAdd" type="text" placeholder="Add Item" ng-model="todoText" ng-minlength="1" required>
+        </label>
+        <button ng-disabled="myForm.$invalid" class="button button-clear add">Add</button>
+
+      </ion-footer-bar>
+    </form>
+
+</ion-view>
+

@@ -1,0 +1,5 @@
+/Applications/MAMP/htdocs/Repositories/mad9135/multiview/platforms/android/build/intermediates/classes/debug
+/Applications/MAMP/htdocs/Repositories/mad9135/multiview/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-1d340765ef691e13d88a7fefcd0b4495b9e508e7.jar
+/Applications/MAMP/htdocs/Repositories/mad9135/multiview/platforms/android/build/intermediates/pre-dexed/debug/classes-0aacb7af7b3a7b9db61157d6cc8230dcc5cf59dd.jar
+/Applications/MAMP/htdocs/Repositories/mad9135/multiview/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-03f1f8d2a159af217a848eeef35285d4e7c24a24.jar
+/Applications/MAMP/htdocs/Repositories/mad9135/multiview/platforms/android/build/intermediates/pre-dexed/debug/classes-e79972ccfe30a65dde6537d30f3c7ba595df8c98.jar

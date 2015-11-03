@@ -1,0 +1,16 @@
+/* Empty. Add your own CSS if you like */
+.item-complex .item-content, .item-radio .item-content{
+
+  padding: 16px 49px 16px 46px; !important;
+
+}
+.item-checkbox .checkbox{
+
+  right:0;
+  left:0;
+}
+
+.item-checkbox {
+  padding-left: 0;
+
+}
